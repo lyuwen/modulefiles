@@ -21,7 +21,7 @@ whatis("Category: python conda")
 whatis("Keywords: python conda")
 whatis("Description: Base Anaconda python environment")
 
-local conda_dir = os.getenv("HOME") .. "/miniforge3"
+local conda_dir = os.getenv("HOME") .. "/miniforge3/"
 local funcs = "conda __conda_activate __conda_hashr __conda_reactivate __add_sys_prefix_to_path __conda_exe"
 
 pushenv("CONDA_ENVS_PATH", conda_dir .. "envs")
