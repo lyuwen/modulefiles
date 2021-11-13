@@ -16,7 +16,7 @@ You can modify this environment as follows:
 help(help_message,"\n")
 
 whatis("Name: Anaconda Python 3.9 Arm64")
-whatis("Version: 4.10.3-3.8")
+whatis("Version: 4.10.3-3.9")
 whatis("Category: python conda")
 whatis("Keywords: python conda")
 whatis("Description: Python 3.9 arm64 Anaconda python environment")
