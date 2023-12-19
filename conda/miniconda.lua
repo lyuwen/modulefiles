@@ -1,5 +1,5 @@
 local help_message = [[
-The python 3.9 arm64 Miniforge python environment.
+The python 3.10.10 arm64 Miniconda python environment.
 
 You can modify this environment as follows:
 
@@ -15,15 +15,15 @@ You can modify this environment as follows:
 
 help(help_message,"\n")
 
-whatis("Name: Miniforge Python 3.9 Arm64")
-whatis("Version: 4.10.3+3.9")
+whatis("Name: Miniconda Python 3.10.10 arm64")
+whatis("Version: 23.3.1-3.10")
 whatis("Category: python conda")
 whatis("Keywords: python conda")
-whatis("Description: Python 3.9 arm64 Miniforge python environment")
+whatis("Description: Python 3.10 arm64 Miniconda python environment")
 
 family("conda")
 
-load("conda_base/miniforge")
+load("conda_base/miniconda")
 execute{cmd="conda activate", modeA={"load"}}
 
 -- execute{cmd="conda deactivate", modeA={"unload"}}
